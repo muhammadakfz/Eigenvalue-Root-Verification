@@ -1,0 +1,17 @@
+# LaTeX temporary build files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.toc
+*.out
+*.lof
+*.lot
+*.tex
+
+# Octave temporary workspace
+octave-workspace
+
+# macOS
+.DS_Store
