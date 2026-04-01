@@ -92,34 +92,8 @@ $$
 Sehingga output diagonal matriks $D$ diharapkan mendekati:
 
 $$
-D = \operatorname{diag}(3, 3, 6)
+D = \mathrm{diag}(3, 3, 6)
 $$
-
-## Kompilasi Laporan LaTeX
-
-Gunakan salah satu cara berikut:
-
-```bash
-latexmk -pdf main.tex
-```
-
-atau:
-
-```bash
-pdflatex main.tex
-pdflatex main.tex
-```
-
-## Upload ke GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: eigenvalue numerical analysis"
-git branch -M main
-git remote add origin https://github.com/USERNAME/REPO-NAME.git
-git push -u origin main
-```
 
 ## Catatan
 
